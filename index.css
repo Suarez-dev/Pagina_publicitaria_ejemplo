@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        font-size: 1rem;
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(253, 252, 252);
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+
+}
+
+.header
+{
+    grid-column: 1/11;
+    grid-row: 1/2;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.logo {
+    width: 100px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-image{
+    width: 50px;
+}
+.image-logo{
+    width: 50px;
+}
+
+.ubicacion{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #002f34;
+    border-radius: 4px;
+}
+
+
+.ubicacion-image{
+    width: 20px;
+    border: 1px solid transparent;
+
+}
+.ubicacion-input{
+    height: 50px;
+    width: 280px;
+    border: 1px solid black;
+
+}
+
+
+
+
+.busqueda{
+    width: 750px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.busqueda-div{
+    border: 1px solid black;
+    height: 50px;
+    display: flex;
+    
+    
+}
+.busqueda-input{
+    width: 660px ;
+    height: 50px;
+   border: 2px solid black;
+   border-right: 1px solid transparent;
+
+}
+
+.busqueda-image{
+    width: 40px;
+    height: 20px;
+    align-self: center;
+}
+
+
+
+.registro{
+    width: 216px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingresar{
+    margin-left: -60px;
+}
+.vender{ 
+    margin-left: 28px;
+    text-decoration: none;
+    border-radius: 40px;
+    border: 2px solid #23e5db;
+    
+}
+.p{
+    font-size: 1.2rem;
+   padding: 8px;
+}
+
+
+.nav
+{
+    
+    grid-column: 1/11;
+    grid-row: 2/3;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    color: black;
+    background-color: white;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+
+.main
+{
+
+    grid-column: 1/11;
+    grid-row: 3/7;
+    display: flex;
+
+}
+
+.foto3{
+    width: 251px;
+    height: 252px;
+    margin-right: 2px;
+}
+
+
+.publicity{
+    grid-column: 1/11;
+    grid-row: 7/11;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parte-abajo{
+    margin-top: -5px;
+}
+.publiciti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.foto{
+    padding: 1px;
+
+}
+
+.foto:hover{
+
+    box-shadow: 2px;
+}
+
