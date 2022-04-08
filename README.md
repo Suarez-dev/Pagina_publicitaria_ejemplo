@@ -1,7 +1,7 @@
 # Pagina_publicitaria_ejemplo
 
-Practicando maquetado
+Practicando maquetado landing page
 html
 y css grid, y flexbox.
 
-https://xein-dev.github.io/Pagina_publicitaria_ejemplo/
+https://Suarez-dev.github.io/Pagina_publicitaria_ejemplo/
