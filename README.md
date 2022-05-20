@@ -4,4 +4,4 @@ Practicando maquetado landing page
 html
 y css grid, y flexbox.
 
-https://Suarez-dev.github.io/Pagina_publicitaria_ejemplo/
+https://polyxein.github.io/Pagina_publicitaria_ejemplo/
